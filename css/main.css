@@ -7,3 +7,11 @@ html,body{
 h1{
 	text-align: center;
 }
+
+#jeux{
+	display: flex;
+	justify-content: center;
+}
+#jeux a{
+	margin: 5px;
+}
