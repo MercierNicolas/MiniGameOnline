@@ -16,6 +16,7 @@ h2{
 #jeux{
 	display: flex;
 	justify-content: center;
+	flex-wrap:wrap;
 }
 #jeux a{
 	margin: 5px;
