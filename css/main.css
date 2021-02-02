@@ -15,3 +15,13 @@ h1{
 #jeux a{
 	margin: 5px;
 }
+
+
+
+footer{
+	background-color:#ccc;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align: center;
+}
