@@ -8,6 +8,10 @@ h1{
 	text-align: center;
 }
 
+h2{
+	padding: 15px;
+	color: grey;
+}
 #jeux{
 	display: flex;
 	justify-content: center;
