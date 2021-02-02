@@ -21,6 +21,14 @@ h2{
 	margin: 5px;
 }
 
+#regles{
+	background-color: black;
+	height: 400px;
+	width: 50%;
+	display: none;
+	margin: 0 auto;
+
+}
 #info{
 	display: flex;
 	justify-content: center;
