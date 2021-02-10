@@ -17,11 +17,11 @@ $(document).ready(function(){
 	});
 	
 	$("#plus_moins").mouseover(function(){
-		$("#regles").toggle();
+		$("#regles").toggle().append("<p>Les règles du jeu : <br/> • Le joueur doit trouver en le moins d'essaye possible le nombre générer <br/> • A chaque fois que le joueur ce trompe son score augmente de 1,le but est d'avoir le score le plus faible.</p>");
 	});
 
 	$("#plus_moins").mouseout(function(){
-		$("#regles").toggle();
+		$("#regles").toggle().empty();
 	});
 
 	$("#puissance4").mouseover(function(){
