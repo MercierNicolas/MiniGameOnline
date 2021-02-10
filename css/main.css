@@ -1,7 +1,7 @@
 html,body{
 	margin: 0;
 	padding: 0;
-
+	
 }
 * {-moz-box-sizing: border-box; box-sizing: border-box;}
 h1{
@@ -12,23 +12,39 @@ h2{
 	text-align: center;
 	padding: 15px;
 	background-color: grey;
+	border-radius: 30px;
 }
 #jeux{
 	display: flex;
 	justify-content: center;
+	flex-wrap:wrap;
 }
 #jeux a{
 	margin: 5px;
 }
 
 #regles{
-	background-color: black;
-	height: 400px;
+	background-color: rgba(206,206,206,0.5);
+	border-radius: 30px;
+	height: auto ;
 	width: 50%;
 	display: none;
 	margin: 0 auto;
+}
+#regles p{
+	text-align: center;
 
 }
+
+#txt_propos{
+	width: 50%;
+	margin:0 auto;
+}
+
+
+
+
+
 #info{
 	display: flex;
 	justify-content: center;
