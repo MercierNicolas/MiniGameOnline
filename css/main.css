@@ -1,7 +1,7 @@
 html,body{
 	margin: 0;
 	padding: 0;
-
+	
 }
 * {-moz-box-sizing: border-box; box-sizing: border-box;}
 h1{
@@ -12,6 +12,7 @@ h2{
 	text-align: center;
 	padding: 15px;
 	background-color: grey;
+	border-radius: 30px;
 }
 #jeux{
 	display: flex;
@@ -34,6 +35,16 @@ h2{
 	text-align: center;
 
 }
+
+#txt_propos{
+	width: 50%;
+	margin:0 auto;
+}
+
+
+
+
+
 #info{
 	display: flex;
 	justify-content: center;
