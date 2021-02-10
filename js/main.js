@@ -9,11 +9,11 @@ $(document).ready(function(){
 	});
 
 	$("#casse").mouseover(function(){
-		$("#regles").toggle();
+		$("#regles").toggle().append("<p>Les règles du jeu : <br/> • Le joueur déplace la raquette de droite à gauche pour empêcher la balle de tomber dans la zone en dessous <br/> • A chaque fois que la balle touche une brique, elle disparaît et le score augmente de 1 point</p>");
 	});
 
 	$("#casse").mouseout(function(){
-		$("#regles").toggle();
+		$("#regles").toggle().empty();
 	});
 	
 	$("#plus_moins").mouseover(function(){
