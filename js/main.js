@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
 	$("#morpion").mouseover(function(){
-		$("#regles").toggle();
+		$("#regles").toggle().append("<p> Le jeux n'est pas encore disponible :( </p>");
 	});
 
 	$("#morpion").mouseout(function(){
-		$("#regles").toggle();
+		$("#regles").toggle().empty();
 	});
 
 	$("#casse").mouseover(function(){
@@ -25,11 +25,11 @@ $(document).ready(function(){
 	});
 
 	$("#puissance4").mouseover(function(){
-		$("#regles").toggle();
+		$("#regles").toggle().append("<p> Le jeux n'est pas encore disponible :( </p>");;
 	});
 
 	$("#puissance4").mouseout(function(){
-		$("#regles").toggle();
+		$("#regles").toggle().empty();
 	});
 
 
