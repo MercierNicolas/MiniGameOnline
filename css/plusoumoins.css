@@ -4,3 +4,44 @@ html,body{
 
 }
 * {-moz-box-sizing: border-box; box-sizing: border-box;}
+
+
+h1{
+	text-align: center;
+	padding: 15px;
+	background-color: grey;
+	border-radius: 30px;
+}
+
+#jeux{
+	background-color: rgba(206,206,206,0.5);
+	height: 200px;
+	width: 50%;
+	margin:0 auto;
+
+
+}
+#jeux input{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color:#ccc;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align: center;
+
+}
