@@ -3,15 +3,48 @@ html,body{
 	padding: 0;
 
 }
-
+* {-moz-box-sizing: border-box; box-sizing: border-box;}
 h1{
 	text-align: center;
 }
 
+h2{
+	text-align: center;
+	padding: 15px;
+	background-color: grey;
+}
 #jeux{
 	display: flex;
 	justify-content: center;
 }
 #jeux a{
 	margin: 5px;
+}
+
+#regles{
+	background-color: black;
+	height: 400px;
+	width: 50%;
+	display: none;
+	margin: 0 auto;
+
+}
+#info{
+	display: flex;
+	justify-content: center;
+}
+#info section{
+
+	margin: 50px;
+}
+
+
+
+footer{
+	background-color:#ccc;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align: center;
+
 }
