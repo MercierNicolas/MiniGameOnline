@@ -1,4 +1,4 @@
-function() {
+(function() {
 
 	var ConnectFour = function() {
 
@@ -30,8 +30,8 @@ function() {
 			}
 			
 		};
-
-        var markNextFree = function(x) {
+		
+		var markNextFree = function(x) {
 
 			var nextY;
 			
